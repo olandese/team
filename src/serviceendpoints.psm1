@@ -176,7 +176,7 @@ function Add-AzureRMServiceEndpoint {
          };
          name=$endpointName;
          type='azurerm';
-         url='https://management.core.windows.net/'
+         url='https://management.azure.com/'
       }
 
       $body = $obj | ConvertTo-Json
